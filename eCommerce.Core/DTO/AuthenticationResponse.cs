@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 namespace eCommerce.Core.DTO
 {
     public record AuthenticationResponse
-        (Guid UserId, string? Email, string? PersonName, string? Gender, string? Token, bool Success);
+        (Guid UserID, string? Email, string? PersonName, string? Gender, string? Token, bool Success);
 }
